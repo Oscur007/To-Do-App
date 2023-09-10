@@ -1,0 +1,109 @@
+body
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(90deg , #ea7d0c , #d084d5);
+    align-items: center;
+}
+header
+{
+    font-size: 100px;
+    margin: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #8f0fe8;
+    text-shadow: 2px 2px yellow;
+}
+#app
+{
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 2px 3px 5px 2px yellow;
+    width: 637px;
+}
+#input_button
+{
+    margin: 41px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+#input
+{
+    width: 440px;
+    height: 39px;
+    font-size: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 10px;
+}
+#btn
+{
+    background-color: #ff7f00;
+    height: 45px;
+    width: 100px;
+    color: white;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-color: orchid;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+#btn:hover
+{
+    background-color: orange;
+    color: black;
+}
+.list
+{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.textchecking
+{
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.bttn
+{
+    background-color: red;
+    border-color: #ff7f00;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+}
+.bttn:hover
+{
+    background-color: brown;
+    color: white;
+}
+.checkbox
+{
+    display: flex;
+    align-items: center;
+}
+.checkbox input
+{
+    margin: 5px 9px 3px 0px;
+    line-height: normal;
+    height: 13px;
+    width: 13px;
+    cursor: pointer;
+}
+.text
+{
+    width: 536px;
+    word-wrap: break-word;
+}
